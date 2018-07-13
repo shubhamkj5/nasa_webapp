@@ -1,0 +1,110 @@
+<html>
+<head>
+	<title>NASA OPEN SPACE SOFTWARE</title>
+	<body background="nasa3.jpg">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="project1.css" rel="stylesheet">
+<style>
+.container1{
+	 width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 75px;
+        border-radius: 15px;
+        padding: 30px;
+        text-align: center;
+        
+        font-family: latin, Arial, sans-serif
+    }
+    h1{
+    	font-size: 50px;
+       color: white;
+    }
+    .icon-size {
+    	color: white;
+    	font-size:15px;
+    	margin-left: 10px;
+    }
+    input[type="text"]
+    {
+    	background: transparent;
+    	border:none;
+    }
+    #ember812 {
+    	margin-top: 36px;
+    	margin-left: 12px;
+    	margin-bottom: 50px;
+    	margin-right: 0px;
+    	width: 280px;
+    	height: 40px;
+    }
+    
+</style>
+</head>
+<body>
+
+<div id="home" class="header">
+		<div class="container">
+			<div class="header-nav">
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+						<div class="logo">
+							
+							<a href="/#/" class="logo">
+        <img src="nasalogo.png" height="100px">
+      </a>
+						</div>
+					</div> 
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					 <ul class="nav navbar-nav">
+						<li class="hvr-sweep-to-bottom active"><a href="#home">Home</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="#about" class="scroll">About</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="#gallery" class="scroll">Gallery</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="#news" class="scroll">News</a></li> 
+						<li class="hvr-sweep-to-bottom"><a href="#contact" class="scroll">Contact Us</a></li>
+						
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container1">
+		<section>
+			<header>
+				<h1>NASA</h1>
+			</header>
+		</section>
+		 <div class="glyphicon glyphicon-search icon-size"></div>
+			<input  type="text" placeholder="Search Here..." id="search" >	
+			<button type="submit" onclick='getdata()';>Go</button>
+
+		</div>
+		<div id="message">
+
+        </div>
+
+        <div class="result" id="result">          
+        </div>
+
+		<script src="scripts.js"></script>
+	</body>
+	</html>
+		
